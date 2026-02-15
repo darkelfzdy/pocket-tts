@@ -6,7 +6,7 @@ on:
   # 当推送到 main 分支时自动触发（可选）
   push:
     branches:
-      - main
+      - docker-build
 
 jobs:
   build:
