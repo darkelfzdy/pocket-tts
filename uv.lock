@@ -1106,7 +1106,7 @@ wheels = [
 
 [[package]]
 name = "pocket-tts"
-version = "1.0.3"
+version = "1.1.1"
 source = { editable = "." }
 dependencies = [
     { name = "beartype" },
@@ -1144,6 +1144,7 @@ dev = [
     { name = "mkdocstrings-python" },
     { name = "pytest" },
     { name = "pytest-xdist" },
+    { name = "soundfile" },
 ]
 
 [package.metadata]
@@ -1151,7 +1152,7 @@ requires-dist = [
     { name = "beartype", specifier = ">=0.22.5" },
     { name = "einops", specifier = ">=0.4.0" },
     { name = "fastapi", specifier = ">=0.100" },
-    { name = "huggingface-hub", specifier = ">=0.10" },
+    { name = "huggingface-hub", specifier = ">=0.13.0" },
     { name = "numpy", specifier = ">=2" },
     { name = "pydantic", specifier = ">=2" },
     { name = "python-multipart", specifier = ">=0.0.21" },
@@ -1177,6 +1178,7 @@ dev = [
     { name = "mkdocstrings-python", specifier = ">=2.0.1" },
     { name = "pytest", specifier = ">=9.0.2" },
     { name = "pytest-xdist", specifier = ">=3.8.0" },
+    { name = "soundfile" },
 ]
 
 [[package]]
